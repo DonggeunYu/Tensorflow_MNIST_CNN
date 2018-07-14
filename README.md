@@ -269,3 +269,11 @@ http://taewan.kim/post/cnn/
 http://coderkoo.tistory.com/13
 
 http://cs231n.github.io/convolutional-networks/
+
+https://ko.wikipedia.org/wiki/정규_분포
+
+http://pythonkim.tistory.com/69
+
+https://gist.github.com/haje01/202ac276bace4b25dd3f
+
+https://legacy.gitbook.com/book/tensorflowkorea/tensorflow-kr/details
