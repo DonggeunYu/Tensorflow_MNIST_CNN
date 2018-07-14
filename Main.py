@@ -21,7 +21,7 @@ def relu(x):
 
 
 def max_pool_2x2(x):
-    return tf.nn.max_pool()
+    return tf.nn.max_pool(x, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
 
 
 # 데이터 셋 블러오기
@@ -32,11 +32,11 @@ Y_Label = tf.placeholder(tf.float32, shape=[None, 10])
 
 Conv1 = conv2d(X, weight_variable([4, 4, 1, 4]), bias_variable([4]))
 Relu1 = relu(Conv1)
-Pool1 = tf.nn.max_pool(Relu1, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
+Pool1 = max_pool_2x2(Relu1)
 
 Conv2 = conv2d(Pool1, weight_variable([4, 4, 4, 8]), bias_variable([8]))
 Relu2 = relu(Conv2)
-Pool2 = tf.nn.max_pool(Relu2, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
+Pool2 = max_pool_2x2(Relu2)
 
 
 W1 = tf.Variable(tf.truncated_normal(shape=[8*7*7, 10]))

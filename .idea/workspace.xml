@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c437aef8-a6b9-4b5a-8aa6-910f3b7c7638" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/View_Tensorflow_Fuction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -16,16 +13,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Tensorflow_MNIST_CNN$View_Tensorflow_Fuction.coverage" NAME="View_Tensorflow_Fuction Coverage Results" MODIFIED="1531579649747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tensorflow_MNIST_CNN$Main.coverage" NAME="Main Coverage Results" MODIFIED="1531579133081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_MNIST_CNN$View_Tensorflow_Fuction.coverage" NAME="View_Tensorflow_Fuction Coverage Results" MODIFIED="1531583177494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_MNIST_CNN$Main.coverage" NAME="Main Coverage Results" MODIFIED="1531583555783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="53" column="30" selection-end-line="58" selection-end-column="99" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -73,8 +70,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/functions.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/View_Tensorflow_Fuction.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -129,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.View_Tensorflow_Fuction">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow_MNIST_CNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,8 +171,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.View_Tensorflow_Fuction" />
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.View_Tensorflow_Fuction" />
       </list>
     </recent_temporary>
   </component>
@@ -280,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="238">
+          <caret line="53" column="30" selection-end-line="58" selection-end-column="99" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
