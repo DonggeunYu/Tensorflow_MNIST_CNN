@@ -144,9 +144,11 @@ OutputLayer = tf.matmul(Pool2_flat, W1) + b1
 
 
 
-모르겠다...
 
-???
+
+Softmax_cross_entropy를 하고 값 평균을 구한후 Loss에 담는다.
+
+Loss를 Gradient Descent(Learning rate=0.005)하여 학습시킨다.
 
 ```python
 Loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=Y_Label, logits=OutputLayer))
